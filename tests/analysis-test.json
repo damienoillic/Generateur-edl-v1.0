@@ -1,0 +1,31 @@
+[
+  {
+    "fichier": "IMG_6809.JPG",
+    "piece": "chambre",
+    "elements_visibles": ["lit", "matelas", "table de chevet"],
+    "defauts": [
+      {"description": "petite tache sur le côté du matelas", "gravite": "faible"},
+      {"description": "rayure sur la table de chevet", "gravite": "faible"}
+    ],
+    "legende_suggeree": "Lit avec tache sur matelas et table de chevet",
+    "score_qualite": 8
+  },
+  {
+    "fichier": "IMG_6810.JPG",
+    "piece": "salon",
+    "elements_visibles": ["canapé", "table basse"],
+    "defauts": [
+      {"description": "tache sur l'accoudoir du canapé", "gravite": "moyenne"}
+    ],
+    "legende_suggeree": "Canapé du salon avec tache",
+    "score_qualite": 7
+  },
+  {
+    "fichier": "IMG_6811.JPG",
+    "piece": "cuisine",
+    "elements_visibles": ["évier", "plan de travail", "robinet"],
+    "defauts": [],
+    "legende_suggeree": "Évier et plan de travail de la cuisine",
+    "score_qualite": 9
+  }
+]

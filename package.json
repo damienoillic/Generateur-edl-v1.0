@@ -1,0 +1,32 @@
+{
+  "name": "edl-tool",
+  "version": "1.0.0",
+  "description": "Outil de génération et révision d'états des lieux (EDL) pour locations meublées",
+  "type": "module",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node src/launch.js",
+    "launch": "node src/launch.js",
+    "quick-start": "node src/quick-start.js",
+    "interactive": "node src/interactive.js",
+    "apply-review": "node src/cli.js apply-review",
+    "finalize": "node src/cli.js finalize",
+    "compare": "node src/cli.js compare",
+    "seed": "node src/cli.js seed",
+    "mcp": "node src/mcp-server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@mistralai/mistralai": "^1.15.1",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "dotenv": "^16.4.5",
+    "open": "^10.0.0",
+    "puppeteer": "^24.15.0",
+    "sharp": "^0.33.5",
+    "zod": "^4.6.7"
+  }
+}
+

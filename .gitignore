@@ -1,0 +1,34 @@
+# Environnement & Identifiants privés
+.env
+*.env
+
+# Configuration avec données sensibles
+config.json
+
+# Données privées et contextes locaux
+/context/
+context.json
+analysis.json*
+data/edl/
+output/
+
+# Fichiers temporaires et logs
+*.log
+*.tmp
+*.flag
+*.bak
+.DS_Store
+Thumbs.db
+
+# Dépendances
+node_modules/
+
+# Fichiers de sauvegarde
+*.backup
+*.bak
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
